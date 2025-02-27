@@ -1,0 +1,14 @@
+[{
+  "_id": {
+    "$oid": "67bf86b7079eefcd0994dc5b"
+  },
+  "generatedBy": {
+    "$oid": "67bea6646b9c9113887e130c"
+  },
+  "data": [],
+  "status": true,
+  "generatedAt": {
+    "$date": "2025-02-26T21:25:11.232Z"
+  },
+  "__v": 0
+}]

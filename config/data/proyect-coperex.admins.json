@@ -1,0 +1,17 @@
+[{
+  "_id": {
+    "$oid": "67bea6646b9c9113887e130c"
+  },
+  "name": "Jonathan Gutierrez",
+  "email": "jgarciadmin@gmail.com",
+  "password": "$argon2id$v=19$m=65536,t=3,p=4$hPeP9WoNXVHD3OBmVG1cNA$NKtzZQKmYI580N8ED3Ve9lwlhvHsvBeKdSkHqbaXPPE",
+  "role": "ADMIN_ROLE",
+  "status": true,
+  "createdAt": {
+    "$date": "2025-02-26T05:28:04.755Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-26T05:28:04.755Z"
+  },
+  "__v": 0
+}]

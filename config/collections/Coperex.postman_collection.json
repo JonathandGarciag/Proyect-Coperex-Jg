@@ -1,0 +1,169 @@
+{
+	"info": {
+		"_postman_id": "a43a3fb0-bcf4-48dc-a899-add065ca8042",
+		"name": "Coperex",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "38078627"
+	},
+	"item": [
+		{
+			"name": "Login",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"email\": \"jgarciadmin@gmail.com\",\r\n  \"password\": \"12345678\"\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/proyect-coperex/v4/auth/login",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"proyect-coperex",
+						"v4",
+						"auth",
+						"login"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Category",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "x-token",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2N2JlYTY2NDZiOWM5MTEzODg3ZTEzMGMiLCJpYXQiOjE3NDA1NDc3MzQsImV4cCI6MTc0MDU1MTMzNH0.4QR5vRXFzZfRIbn0lUwNiyDcIsNnlBe7K84S16h_bR0",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"name\": \"Tecnología\",\r\n  \"description\": \"Categoría sobre empresas acerca de Programacion\"\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/proyect-coperex/v4/category/newCategory",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"proyect-coperex",
+						"v4",
+						"category",
+						"newCategory"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetCategory",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "RegisterCompany",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "x-token",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2N2JlYTY2NDZiOWM5MTEzODg3ZTEzMGMiLCJpYXQiOjE3NDA1NDc3MzQsImV4cCI6MTc0MDU1MTMzNH0.4QR5vRXFzZfRIbn0lUwNiyDcIsNnlBe7K84S16h_bR0",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"name\": \"Tech Solutions\",\r\n  \"category\": \"Tecnología\",\r\n  \"yearsOfExperience\": 10,\r\n  \"contactEmail\": \"contact@techsolutions.com\"\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/proyect-coperex/v4/company/register",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"proyect-coperex",
+						"v4",
+						"company",
+						"register"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Update Company",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "x-token",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2N2JlYTY2NDZiOWM5MTEzODg3ZTEzMGMiLCJpYXQiOjE3NDA2MTcxMTYsImV4cCI6MTc0MDYyMDcxNn0.s_J_hFQAY8DX6hiC4chJKESpuL1gKity-c5QJvjyTMg",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\": \"Electro Marimba\",\r\n    \"category\": \"Electronica\",\r\n    \"yearsOfExperience\": 7,\r\n    \"contactEmail\": \"marimbae@e.mhr.com\",\r\n    \"phone\": \"+50244442222\",\r\n    \"description\": \"Empresa sobre experimentos de la Electronica.\"\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/proyect-coperex/v4/company/updateCompany/67bf96353b7b0a42983d7091",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"proyect-coperex",
+						"v4",
+						"company",
+						"updateCompany",
+						"67bf96353b7b0a42983d7091"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "ExcelReport",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		}
+	]
+}

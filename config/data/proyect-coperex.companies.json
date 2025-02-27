@@ -1,0 +1,109 @@
+[{
+  "_id": {
+    "$oid": "67beaaacac7a7555a49f53dd"
+  },
+  "name": "Tech Solutions",
+  "impactLevel": "Medio",
+  "yearsOfExperience": 10,
+  "category": {
+    "$oid": "67bea73f6b9c9113887e1311"
+  },
+  "contactEmail": "contact@techsolutions.com",
+  "phone": "+50212345678",
+  "description": "Empresa líder en desarrollo de software e inteligencia artificial.",
+  "status": true,
+  "createdAt": {
+    "$date": "2025-02-26T05:46:20.061Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-26T05:46:20.062Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67bf95c43b7b0a42983d7089"
+  },
+  "name": "Laboratorio Js",
+  "impactLevel": "Medio",
+  "yearsOfExperience": 5,
+  "category": {
+    "$oid": "67bf95563b7b0a42983d707c"
+  },
+  "contactEmail": "biologyjs@js.bio.com",
+  "phone": "+50287654321",
+  "description": "Empresa sobre experimentos de la biologia.",
+  "status": true,
+  "createdAt": {
+    "$date": "2025-02-26T22:29:24.049Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-26T22:29:24.049Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67bf960c3b7b0a42983d708d"
+  },
+  "name": "Meca Meca",
+  "impactLevel": "Medio",
+  "yearsOfExperience": 5,
+  "category": {
+    "$oid": "67bf95623b7b0a42983d7080"
+  },
+  "contactEmail": "hmenica@hm.mecanica.com",
+  "phone": "+50287654321",
+  "description": "Empresa sobre experimentos de la mecanica.",
+  "status": true,
+  "createdAt": {
+    "$date": "2025-02-26T22:30:36.861Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-26T22:30:36.861Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67bf96353b7b0a42983d7091"
+  },
+  "name": "Electro Marimba",
+  "impactLevel": "Medio",
+  "yearsOfExperience": 7,
+  "category": {
+    "$oid": "67bf956e3b7b0a42983d7084"
+  },
+  "contactEmail": "marimbae@e.mhr.com",
+  "phone": "+50244442222",
+  "description": "Empresa sobre experimentos de la Electronica.",
+  "status": true,
+  "createdAt": {
+    "$date": "2025-02-26T22:31:17.669Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-27T00:45:24.739Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67bfc77cfda2c80fc8e2988d"
+  },
+  "name": "Electry-Dies",
+  "impactLevel": "Medio",
+  "yearsOfExperience": 5,
+  "category": {
+    "$oid": "67bf956e3b7b0a42983d7084"
+  },
+  "contactEmail": "dieselec@die.ekled.com",
+  "phone": "+50258694725",
+  "description": "Empresa sobre manejo de la Electronica.",
+  "status": true,
+  "createdAt": {
+    "$date": "2025-02-27T02:01:32.439Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-27T02:01:32.439Z"
+  }
+}]

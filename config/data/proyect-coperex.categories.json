@@ -1,0 +1,65 @@
+[{
+  "_id": {
+    "$oid": "67bea6646b9c9113887e1308"
+  },
+  "name": "General",
+  "description": "Categoría predeterminada",
+  "isDefault": false,
+  "status": true,
+  "createdAt": {
+    "$date": "2025-02-26T05:28:04.644Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67bea73f6b9c9113887e1311"
+  },
+  "name": "Tecnología",
+  "description": "Categoría sobre empresas acerca de Programacion",
+  "isDefault": false,
+  "status": true,
+  "createdAt": {
+    "$date": "2025-02-26T05:31:43.309Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67bf95563b7b0a42983d707c"
+  },
+  "name": "Biologia",
+  "description": "Categoría sobre empresas acerca de Biologia",
+  "isDefault": false,
+  "status": true,
+  "createdAt": {
+    "$date": "2025-02-26T22:27:34.602Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67bf95623b7b0a42983d7080"
+  },
+  "name": "Mecanica",
+  "description": "Categoría sobre empresas acerca de Mecanica",
+  "isDefault": false,
+  "status": true,
+  "createdAt": {
+    "$date": "2025-02-26T22:27:46.179Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67bf956e3b7b0a42983d7084"
+  },
+  "name": "Electronica",
+  "description": "Categoría sobre empresas acerca de Electronica",
+  "isDefault": false,
+  "status": true,
+  "createdAt": {
+    "$date": "2025-02-26T22:27:58.808Z"
+  },
+  "__v": 0
+}]
